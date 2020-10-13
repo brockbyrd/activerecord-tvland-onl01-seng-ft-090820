@@ -8,3 +8,4 @@ class Show < ActiveRecord::Base
       "#{act.first_name} #{act.last_name}"
   end
 end
+end
