@@ -7,6 +7,6 @@ class Character < ActiveRecord::Base
   end
 
   def build_network
-    self.build_show(name: "Firefly").build_network(:call_letters => "Fox")
+    
   end
 end
